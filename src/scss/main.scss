@@ -1,0 +1,32 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+@import "EventCalendar/event_calendar";
+
+body{
+  background-color: #f3f3f4;
+}
+.navbar, .app-bar{
+  margin-bottom: 30px;
+  .notification{
+    padding: 0 5px 0 0 !important;
+  }
+}
+.tabs{
+  margin-bottom: 50px;
+}
+.title{
+  margin-bottom: 30px;
+}
+.social-button{
+  width: 100%;
+  height: 50px;
+  border: 0;
+  margin-bottom: 10px;
+  &.metro{
+    background: #025aa5;
+    color: #fff;
+    i{margin-right: 10px;}
+  }
+  &.twitter{
+    svg{margin-right: 15px;}
+  }
+}

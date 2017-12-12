@@ -1,0 +1,13 @@
+.rbc-calendar {
+  max-height: 650px;
+  margin: 2em auto;
+}
+
+.select-employers{
+  margin-top: 0 !important;
+  height: 56px !important;
+  & > div{margin-top: 0 !important;}
+  .select-item{
+    margin-top: 10px;
+  }
+}
